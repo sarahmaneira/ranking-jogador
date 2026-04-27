@@ -78,6 +78,9 @@ public class BinarySearchTree {
         return findMin(current.getLeft());
     }
 
+    public Node getRoot() {
+        return root;
+    }
 
 
 
